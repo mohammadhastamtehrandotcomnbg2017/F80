@@ -1559,7 +1559,7 @@ end
 	end
 --Remove Groups--
 function rem_gp(msg, chat_id, user_id, username)
-	add = '*Group* '..chat_id..' *Hasbeen SuccsesFully Removed From* @SPRCPU\\_Company *Data Base.*'
+	add = '*Group* '..chat_id..' *Hasbeen SuccsesFully Removed From* @EsetGroupSecurity\\_Company *Data Base.*'
 	send_sup = '*Group *:`'..chat_id..'`\n'
 	..'*Remover* : '..(username or user_id)..'\n'
 	..'---------------------------'
