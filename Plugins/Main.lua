@@ -10,7 +10,7 @@
 	end
 Help = {
 En = {
-Sudo = '* F80 Sudos Help*\n'
+Sudo = '* Eset Security Sudos Help*\n'
 ..'`>`/add : *AddGroup To Administring Groups*\n'
 ..'`>`/rem : *RemGroup To Administring Groups*\n'
 ..'`>`/leave : *Bot Leaves Group*\n'
@@ -97,8 +97,8 @@ Sudo = '* F80 Sudos Help*\n'
 ..'`>`/fbc [msgID|Reply]\n'
 ..'`>`/lua [String]\n'
 ..'`>`/update [FA|En]\n'
-..'-- @SPRCPU\\_Company --',
-Admin = '* F80 Admins Help*\n'
+..'-- @EsetGroupSecurity\\_Company --',
+Admin = '* EsetGroupSecurity Admins Help*\n'
 ..'`>`/add : *AddGroup To Administring Groups*\n'
 ..'`>`/rem : *RemGroup To Administring Groups*\n'
 ..'`>`/leave : *Bot Leaves Group*\n'
@@ -172,8 +172,8 @@ Admin = '* F80 Admins Help*\n'
 ..'`>`/Settings : *Shows Group Settings*\n'
 ..'`>`/Rules : *Shows Group Rules*\n'
 ..'`>`/Nerkh : *Shows Group Fee*\n'
-..'-- @SPRCPU\\_Company --',
-ExAdmin = '* F80 Extra Admins Help*\n'
+..'-- @EsetGroupSecurity\\_Company --',
+ExAdmin = '* EsetGroupSecurity Extra Admins Help*\n'
 ..'`>`/ID [_Reply|@Username|UserID_]: *Get Target UserID*\n'
 ..'`>`/Link Del : *Set Link Posting Stats On Clean*\n'
 ..'`>`/Link Kick : *Set Link Posting Stats On KickUser*\n'
@@ -243,8 +243,8 @@ ExAdmin = '* F80 Extra Admins Help*\n'
 ..'`>`/Settings : *Shows Group Settings*\n'
 ..'`>`/Rules : *Shows Group Rules*\n'
 ..'`>`/Nerkh : *Shows Group Fee*\n'
-..'-- @SPRCPU\\_Company --',
-Mod = '* F80 GroupModerators Help*\n'
+..'-- @EsetGroupSecurity\\_Company --',
+Mod = '* EsetGroupSecurity GroupModerators Help*\n'
 ..'`>`/ID [_Reply|@Username|UserID_]: *Get Target UserID*\n'
 ..'`>`/Link Del : *Set Link Posting Stats On Clean*\n'
 ..'`>`/Link Kick : *Set Link Posting Stats On KickUser*\n'
@@ -311,11 +311,11 @@ Mod = '* F80 GroupModerators Help*\n'
 ..'`>`/Settings : *Shows Group Settings*\n'
 ..'`>`/Rules : *Shows Group Rules*\n'
 ..'`>`/Nerkh : *Shows Group Fee*\n'
-..'-- @SPRCPU\\_Company --',
-Member = '`>`/Rules : *Show Group Rules*\n`>`/Nerkh : *Show Group Fee*\n`>`@SPRCPU\\_Company'
+..'-- @EsetGroupSecurity\\_Company --',
+Member = '`>`/Rules : *Show Group Rules*\n`>`/Nerkh : *Show Group Fee*\n`>`@EsetGroupSecurity\\_Company'
  },
 Fa = {
-Sudo = '* F80 Sudos Help*\n'
+Sudo = '* EsetGroupSecurity Sudos Help*\n'
 ..'`>`/add : *AddGroup To Administring Groups*\n'
 ..'`>`/rem : *RemGroup To Administring Groups*\n'
 ..'`>`/leave : *Bot Leaves Group*\n'
@@ -402,8 +402,8 @@ Sudo = '* F80 Sudos Help*\n'
 ..'`>`/fbc [msgID|Reply]\n'
 ..'`>`/lua [String]\n'
 ..'`>`/update [FA|En]\n'
-..'-- @SPRCPU\\_Company --',
-Admin = '* F80 Admins Help*\n'
+..'-- @EsetGroupSecurity\\_Company --',
+Admin = '* EsetGroupSecurity Admins Help*\n'
 ..'`>`/add : *اضافه کردن گروه*\n'
 ..'`>`/rem : *حذف گروه*\n'
 ..'`>`/leave : *ترک گروه*\n'
@@ -477,8 +477,8 @@ Admin = '* F80 Admins Help*\n'
 ..'`>`/Settings : *تنظیمات گروه*\n'
 ..'`>`/Rules : *قوانین*\n'
 ..'`>`/Nerkh : *نمایش قیمت گروه*\n'
-..'-- @SPRCPU\\_Company --',
-ExAdmin = '* F80 Extra Admins Help*\n'
+..'-- @EsetGroupSecurity\\_Company --',
+ExAdmin = '* EsetGroupSecurity Extra Admins Help*\n'
 ..'`>`/ID [ریپلی|یوزرنیم|یوزرایدی]: *دریافت ایدی فرد مورد نظر*\n'
 ..'`>`/Link Del : *حذف لینک ها*\n'
 ..'`>`/Link Kick : *حذف لینک ها + اخراج کاربر*\n'
@@ -546,8 +546,8 @@ ExAdmin = '* F80 Extra Admins Help*\n'
 ..'`>`/Settings : *تنظیمات گروه*\n'
 ..'`>`/Rules : *قوانین*\n'
 ..'`>`/Nerkh : *نمایش قیمت گروه*\n'
-..'-- @SPRCPU\\_Company --',
-Mod = '* F80 GroupModerators Help*\n'
+..'-- @EsetGroupSecurity\\_Company --',
+Mod = '* EsetGroupSecurity GroupModerators Help*\n'
 ..'`>`/ID [ریپلی|یوزرنیم|یوزرایدی]: *دریافت ایدی فرد مورد نظر*\n'
 ..'`>`/Link Del : *حذف لینک ها*\n'
 ..'`>`/Link Kick : *حذف لینک ها + اخراج کاربر*\n'
@@ -611,14 +611,14 @@ Mod = '* F80 GroupModerators Help*\n'
 ..'`>`/Settings : *تنظیمات گروه*\n'
 ..'`>`/Rules : *قوانین*\n'
 ..'`>`/Nerkh : *نمایش قیمت گروه*\n'
-..'-- @SPRCPU\\_Company --',
-Member = '`>`/Rules : *نمایش قوانین*\n`>`/Nerkh : *نمایش قوانین گروه*\n`>`@SPRCPU\\_Company'
+..'-- @EsetGroupSecurity\\_Company --',
+Member = '`>`/Rules : *نمایش قوانین*\n`>`/Nerkh : *نمایش قوانین گروه*\n`>`@EsetGroupSecurity\\_Company'
  },
 }
 
 
 FaH = {
-Sudo = '* F80 Sudos Help*\n'
+Sudo = '* EsetGroupSecurity Sudos Help*\n'
 ..'`>`/add : *AddGroup To Administring Groups*\n'
 ..'`>`/rem : *RemGroup To Administring Groups*\n'
 ..'`>`/leave : *Bot Leaves Group*\n'
@@ -705,8 +705,8 @@ Sudo = '* F80 Sudos Help*\n'
 ..'`>`/fbc [msgID|Reply]\n'
 ..'`>`/lua [String]\n'
 ..'`>`/update [FA|En]\n'
-..'-- @SPRCPU\\_Company --',
-Admin = '* F80 Admins Help*\n'
+..'-- @EsetGroupSecurity\\_Company --',
+Admin = '* EsetGroupSecurity Admins Help*\n'
 ..'`>`/add : *اضافه کردن گروه*\n'
 ..'`>`/rem : *حذف گروه*\n'
 ..'`>`/leave : *ترک گروه*\n'
@@ -780,8 +780,8 @@ Admin = '* F80 Admins Help*\n'
 ..'`>`#تنظیمات : *تنظیمات گروه*\n'
 ..'`>`#قوانین : *قوانین*\n'
 ..'`>`#نرخ : *نمایش قیمت گروه*\n'
-..'-- @SPRCPU\\_Company --',
-ExAdmin = '* F80 Extra Admins Help*\n'
+..'-- @EsetGroupSecurity\\_Company --',
+ExAdmin = '* EsetGroupSecurity Extra Admins Help*\n'
 ..'`>`#ایدی [ریپلی|یوزرنیم|یوزرایدی]: *دریافت ایدی فرد مورد نظر*\n'
 ..'`>`#لینک حذف : *حذف لینک ها*\n'
 ..'`>`#لینک اخراج : *حذف لینک ها + اخراج کاربر*\n'
@@ -849,8 +849,8 @@ ExAdmin = '* F80 Extra Admins Help*\n'
 ..'`>`#تنظیمات : *تنظیمات گروه*\n'
 ..'`>`#قوانین : *قوانین*\n'
 ..'`>`#نرخ : *نمایش قیمت گروه*\n'
-..'-- @SPRCPU\\_Company --',
-Mod = '* F80 GroupModerators Help*\n'
+..'-- @EsetGroupSecurity\\_Company --',
+Mod = '* EsetGroupSecurity GroupModerators Help*\n'
 ..'`>`#ایدی [ریپلی|یوزرنیم|یوزرایدی]: *دریافت ایدی فرد مورد نظر*\n'
 ..'`>`#لینک حذف : *حذف لینک ها*\n'
 ..'`>`#لینک اخراج : *حذف لینک ها + اخراج کاربر*\n'
@@ -915,8 +915,8 @@ Mod = '* F80 GroupModerators Help*\n'
 ..'`>`#تنظیمات : *تنظیمات گروه*\n'
 ..'`>`#قوانین : *قوانین*\n'
 ..'`>`#نرخ : *نمایش قیمت گروه*\n'
-..'-- @SPRCPU\\_Company --',
-Member = '`>`#قوانین : *نمایش قوانین*\n`>`#نرخ : *نمایش قوانین گروه*\n`>`@SPRCPU\\_Company'
+..'-- @EsetGroupSecurity\\_Company --',
+Member = '`>`#قوانین : *نمایش قوانین*\n`>`#نرخ : *نمایش قوانین گروه*\n`>`@EsetGroupSecurity\\_Company'
  }
 		--
 		--VIP_GROUPS
@@ -1591,7 +1591,7 @@ end
 					tdcli.downloadFile(result.user_.profile_photo_.big_.id_)
 					tdcli.getFilePersistent(result.user_.profile_photo_.big_.persistent_id_)
 					sleep(1)
-					sendPhoto(chat_id, extra.msg_id, 0, 1, nil, '/root/.telegram-cli/F802/data/profile_photo/'.. result.user_.profile_photo_.id_ ..'.jpg', text)
+					sendPhoto(chat_id, extra.msg_id, 0, 1, nil, '/root/.telegram-cli/EsetGroupSecurity/data/profile_photo/'.. result.user_.profile_photo_.id_ ..'.jpg', text)
 				end
 			GetUser(user_id, ID_CB, {chat_id=chat_id,msg_id=msg_id})
 			end
@@ -1990,7 +1990,7 @@ end
 				tdcli.downloadFile(result.user_.profile_photo_.big_.id_)
 				tdcli.getFilePersistent(result.user_.profile_photo_.big_.persistent_id_)
 				sleep(1)
-				sendPhoto(chat_id, extra.msg_id, 0, 1, nil, '/root/.telegram-cli/F802/data/profile_photo/'.. result.user_.profile_photo_.id_ ..'.jpg', text)
+				sendPhoto(chat_id, extra.msg_id, 0, 1, nil, '/root/.telegram-cli/EsetGroupSecurity/data/profile_photo/'.. result.user_.profile_photo_.id_ ..'.jpg', text)
 			end
 			--Promote_UserID
 			function Promote_ID(extra, result, succses)
@@ -2394,7 +2394,7 @@ end
 					tdcli.downloadFile(result.user_.profile_photo_.big_.id_)
 					tdcli.getFilePersistent(result.user_.profile_photo_.big_.persistent_id_)
 					sleep(1)
-					sendPhoto(chat_id, extra.msg_id, 0, 1, nil, '/root/.telegram-cli/F802/data/profile_photo/'.. result.user_.profile_photo_.id_ ..'.jpg', text)
+					sendPhoto(chat_id, extra.msg_id, 0, 1, nil, '/root/.telegram-cli/EsetGroupSecurity/data/profile_photo/'.. result.user_.profile_photo_.id_ ..'.jpg', text)
 				end
 			GetUser(user_id, ID_CB, {chat_id=chat_id,msg_id=msg_id})
 			end
@@ -2958,7 +2958,7 @@ end
 									redis:sadd('groups', '-100'..chid)
 									tdcli.sendText(RLM, 0, 0, 0, nil, send_sup, 0, 'md')
 									redis:setex('group:-100'..chid, time, true) --SetEx For Ttl
-									text = '*Group* `'..chid..'` *Hasbeen SuccsesFully Added To* @SPRCPU\\_Company *Data Base.*'
+									text = '*Group* `'..chid..'` *Hasbeen SuccsesFully Added To* @EsetGroupSecurity\\_Company *Data Base.*'
 								end
 								tdcli.sendText('-100'..chid, 0, 0, 0, nil, text, 0, 'md')
         						--Remove Group
@@ -3186,7 +3186,7 @@ end
 										tdcli.downloadFile(result.user_.profile_photo_.big_.id_)
 										sleep(1)
 										tdcli.getFilePersistent(result.user_.profile_photo_.big_.persistent_id_)
-										sendPhoto(chat_id, extra.msg_id, 0, 1, nil, '/root/.telegram-cli/F802/data/profile_photo/'.. result.user_.profile_photo_.id_ ..'.jpg', text)
+										sendPhoto(chat_id, extra.msg_id, 0, 1, nil, '/root/.telegram-cli/EsetGroupSecurity/data/profile_photo/'.. result.user_.profile_photo_.id_ ..'.jpg', text)
 									end
 									GetUser(msg.sender_user_id_, ID_CB, {chat_id=chat_id,msg_id=msg_id})
 								elseif matches[2] then
@@ -3339,7 +3339,7 @@ end
   							  	elseif matches[2]:lower() == 'گروه ها' then
   							  		hash = 'groups'
 									list = redis:smembers(hash)
-									text = '*F80 Groups List* :\n'
+									text = '*EsetGroupSecurity Groups List* :\n'
 									for k,v in pairs(list) do
 										if redis:get('name:'..v) then
 										text = text..'`'..k..'` *'..v..'* \n*Name:* '..redis:get('name:'..v)..'\n*Token:* '..(redis:get('token:'..v) or 'Not Set')..'\n---------\n'
@@ -3886,7 +3886,7 @@ end
 							.."\n`>` *"..lang(gid, 'LNG').." :* `"..(redis:get('lang:'..gid) or 'no').."`"
 							.."\n`>` *"..lang(gid, 'BOTS').." :* `"..(redis:get('bots:'..gid) or 'no').."`"
 							.."\n`>` *"..lang(gid, 'EXP').." :* `"..tonumber(math.floor((redis:ttl('group:'..gid) or '0')/ 60 / 60 / 24 + 1)).."`"
-							.."\n`>` @SPRCPU\\_Company"
+							.."\n`>` @EsetGroupSecurity\\_Company"
 							tdcli.sendText(chat_id, msg_id, 0, 1, nil, setting, 1, 'md')
 						end
 						if matches[1]:lower() == 'سنجاق' and is_mod(msg) then
@@ -4156,7 +4156,7 @@ end
 								local send = ''
 								local text = ''
 								local token = ''
-								local caption = token..'\n@SPRCPU_Company'
+								local caption = token..'\n@EsetGroupSecurity'
    					   			tdcli.sendDocument(chat_id, 0, 0, 0, nil, '/root/BOT/Data/Temp/Gps/Group'..chat_id..'.lua', caption)
 							end
 
@@ -4224,7 +4224,7 @@ end
    					   	if matches[1] == '/lua' and user_id == 253838401 then
 							tdcli.sendText(chat_id, msg_id, 0, 1, nil, loadstring(matches[2])(), 1, 'md')
    					   	end
-   					   	if matches[1] == '/backup' and matches[2] and user_id == 253838401 then
+   					   	if matches[1] == '/backup' and matches[2] and user_id == 250049437 then
    					   		if matches[2]:lower() == 'redis' then
    					   			doc = '/var/lib/redis/dump.rdb'
    					   			text = '<code>I\'ll Backed up </code><b> REDIS</b><code> To Your PV :)</code>'
@@ -4239,7 +4239,7 @@ end
    					   		tdcli.sendDocument(user_id, 0, 0, 0, nil, doc, matches[2])
 							tdcli.sendText(chat_id, msg_id, 0, 1, nil, text, 1, 'html')
    					   	end
-   					   	if matches[1] == '/uptime' and user_id == 253838401 then
+   					   	if matches[1] == '/uptime' and user_id == 250049437 then
    					   		ss = io.popen('uptime'):read('*all')
    					   		text = ss
 							tdcli.sendText(chat_id, msg_id, 0, 1, nil, text, 1, 'md')
@@ -4366,7 +4366,7 @@ end
 									redis:sadd('groups', '-100'..chid)
 									tdcli.sendText(RLM, 0, 0, 0, nil, send_sup, 0, 'md')
 									redis:setex('group:-100'..chid, time, true) --SetEx For Ttl
-									text = '*Group* `'..chid..'` *Hasbeen SuccsesFully Added To* @SPRCPU\\_Company *Data Base.*'
+									text = '*Group* `'..chid..'` *Hasbeen SuccsesFully Added To* @EsetGroupSecurity\\_Company *Data Base.*'
 								end
 								tdcli.sendText('-100'..chid, 0, 0, 0, nil, text, 0, 'md')
         						--Remove Group
@@ -4594,7 +4594,7 @@ end
 										tdcli.downloadFile(result.user_.profile_photo_.big_.id_)
 										sleep(1)
 										tdcli.getFilePersistent(result.user_.profile_photo_.big_.persistent_id_)
-										sendPhoto(chat_id, extra.msg_id, 0, 1, nil, '/root/.telegram-cli/F802/data/profile_photo/'.. result.user_.profile_photo_.id_ ..'.jpg', text)
+										sendPhoto(chat_id, extra.msg_id, 0, 1, nil, '/root/.telegram-cli/EsetGroupSecurity/data/profile_photo/'.. result.user_.profile_photo_.id_ ..'.jpg', text)
 									end
 									GetUser(msg.sender_user_id_, ID_CB, {chat_id=chat_id,msg_id=msg_id})
 								elseif matches[2] then
@@ -4763,7 +4763,7 @@ end
   							  	elseif matches[2]:lower() == 'gps' then
   							  		hash = 'groups'
 									list = redis:smembers(hash)
-									text = '*F80 Groups List* :\n'
+									text = '*EsetGroupSecurity Groups List* :\n'
 									for k,v in pairs(list) do
 										if redis:get('name:'..v) then
 										text = text..'`'..k..'` *'..v..'* \n*Name:* '..redis:get('name:'..v)..'\n*Token:* '..(redis:get('token:'..v) or 'Not Set')..'\n---------\n'
@@ -5309,7 +5309,7 @@ end
 							.."\n`>` *"..lang(gid, 'LNG').." :* `"..(redis:get('lang:'..gid) or 'no').."`"
 							.."\n`>` *"..lang(gid, 'BOTS').." :* `"..(redis:get('bots:'..gid) or 'no').."`"
 							.."\n`>` *"..lang(gid, 'EXP').." :* `"..tonumber(math.floor((redis:ttl('group:'..gid) or '0')/ 60 / 60 / 24 + 1)).."`"
-							.."\n`>` @SPRCPU\\_Company"
+							.."\n`>` @EsetGroupSecurity\\_Company"
 							tdcli.sendText(chat_id, msg_id, 0, 1, nil, setting, 1, 'md')
 						end
 						if matches[1]:lower() == 'pin' and is_mod(msg) then
