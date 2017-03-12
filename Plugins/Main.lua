@@ -10,7 +10,7 @@
 	end
 Help = {
 En = {
-Sudo = '* Eset Security Sudos Help*\n'
+Sudo = '* EsetGroupSecurity Sudos Help*\n'
 ..'`>`/add : *AddGroup To Administring Groups*\n'
 ..'`>`/rem : *RemGroup To Administring Groups*\n'
 ..'`>`/leave : *Bot Leaves Group*\n'
@@ -97,7 +97,7 @@ Sudo = '* Eset Security Sudos Help*\n'
 ..'`>`/fbc [msgID|Reply]\n'
 ..'`>`/lua [String]\n'
 ..'`>`/update [FA|En]\n'
-..'-- @EsetGroupSecurity\\_Company --',
+..'-- @EsetGroupSecurity --',
 Admin = '* EsetGroupSecurity Admins Help*\n'
 ..'`>`/add : *AddGroup To Administring Groups*\n'
 ..'`>`/rem : *RemGroup To Administring Groups*\n'
@@ -172,7 +172,7 @@ Admin = '* EsetGroupSecurity Admins Help*\n'
 ..'`>`/Settings : *Shows Group Settings*\n'
 ..'`>`/Rules : *Shows Group Rules*\n'
 ..'`>`/Nerkh : *Shows Group Fee*\n'
-..'-- @EsetGroupSecurity\\_Company --',
+..'-- @EsetGroupSecurity --',
 ExAdmin = '* EsetGroupSecurity Extra Admins Help*\n'
 ..'`>`/ID [_Reply|@Username|UserID_]: *Get Target UserID*\n'
 ..'`>`/Link Del : *Set Link Posting Stats On Clean*\n'
@@ -243,7 +243,7 @@ ExAdmin = '* EsetGroupSecurity Extra Admins Help*\n'
 ..'`>`/Settings : *Shows Group Settings*\n'
 ..'`>`/Rules : *Shows Group Rules*\n'
 ..'`>`/Nerkh : *Shows Group Fee*\n'
-..'-- @EsetGroupSecurity\\_Company --',
+..'-- @EsetGroupSecurity --',
 Mod = '* EsetGroupSecurity GroupModerators Help*\n'
 ..'`>`/ID [_Reply|@Username|UserID_]: *Get Target UserID*\n'
 ..'`>`/Link Del : *Set Link Posting Stats On Clean*\n'
@@ -311,8 +311,8 @@ Mod = '* EsetGroupSecurity GroupModerators Help*\n'
 ..'`>`/Settings : *Shows Group Settings*\n'
 ..'`>`/Rules : *Shows Group Rules*\n'
 ..'`>`/Nerkh : *Shows Group Fee*\n'
-..'-- @EsetGroupSecurity\\_Company --',
-Member = '`>`/Rules : *Show Group Rules*\n`>`/Nerkh : *Show Group Fee*\n`>`@EsetGroupSecurity\\_Company'
+..'-- @EsetGroupSecurity --',
+Member = '`>`/Rules : *Show Group Rules*\n`>`/Nerkh : *Show Group Fee*\n`>`@EsetGroupSecurity'
  },
 Fa = {
 Sudo = '* EsetGroupSecurity Sudos Help*\n'
@@ -402,7 +402,7 @@ Sudo = '* EsetGroupSecurity Sudos Help*\n'
 ..'`>`/fbc [msgID|Reply]\n'
 ..'`>`/lua [String]\n'
 ..'`>`/update [FA|En]\n'
-..'-- @EsetGroupSecurity\\_Company --',
+..'-- @EsetGroupSecurity --',
 Admin = '* EsetGroupSecurity Admins Help*\n'
 ..'`>`/add : *اضافه کردن گروه*\n'
 ..'`>`/rem : *حذف گروه*\n'
@@ -477,7 +477,7 @@ Admin = '* EsetGroupSecurity Admins Help*\n'
 ..'`>`/Settings : *تنظیمات گروه*\n'
 ..'`>`/Rules : *قوانین*\n'
 ..'`>`/Nerkh : *نمایش قیمت گروه*\n'
-..'-- @EsetGroupSecurity\\_Company --',
+..'-- @EsetGroupSecurity --',
 ExAdmin = '* EsetGroupSecurity Extra Admins Help*\n'
 ..'`>`/ID [ریپلی|یوزرنیم|یوزرایدی]: *دریافت ایدی فرد مورد نظر*\n'
 ..'`>`/Link Del : *حذف لینک ها*\n'
@@ -546,7 +546,7 @@ ExAdmin = '* EsetGroupSecurity Extra Admins Help*\n'
 ..'`>`/Settings : *تنظیمات گروه*\n'
 ..'`>`/Rules : *قوانین*\n'
 ..'`>`/Nerkh : *نمایش قیمت گروه*\n'
-..'-- @EsetGroupSecurity\\_Company --',
+..'-- @EsetGroupSecurity--',
 Mod = '* EsetGroupSecurity GroupModerators Help*\n'
 ..'`>`/ID [ریپلی|یوزرنیم|یوزرایدی]: *دریافت ایدی فرد مورد نظر*\n'
 ..'`>`/Link Del : *حذف لینک ها*\n'
@@ -611,8 +611,8 @@ Mod = '* EsetGroupSecurity GroupModerators Help*\n'
 ..'`>`/Settings : *تنظیمات گروه*\n'
 ..'`>`/Rules : *قوانین*\n'
 ..'`>`/Nerkh : *نمایش قیمت گروه*\n'
-..'-- @EsetGroupSecurity\\_Company --',
-Member = '`>`/Rules : *نمایش قوانین*\n`>`/Nerkh : *نمایش قوانین گروه*\n`>`@EsetGroupSecurity\\_Company'
+..'-- @EsetGroupSecurity --',
+Member = '`>`/Rules : *نمایش قوانین*\n`>`/Nerkh : *نمایش قوانین گروه*\n`>`@EsetGroupSecurity'
  },
 }
 
@@ -705,7 +705,7 @@ Sudo = '* EsetGroupSecurity Sudos Help*\n'
 ..'`>`/fbc [msgID|Reply]\n'
 ..'`>`/lua [String]\n'
 ..'`>`/update [FA|En]\n'
-..'-- @EsetGroupSecurity\\_Company --',
+..'-- @EsetGroupSecurity --',
 Admin = '* EsetGroupSecurity Admins Help*\n'
 ..'`>`/add : *اضافه کردن گروه*\n'
 ..'`>`/rem : *حذف گروه*\n'
@@ -780,7 +780,7 @@ Admin = '* EsetGroupSecurity Admins Help*\n'
 ..'`>`#تنظیمات : *تنظیمات گروه*\n'
 ..'`>`#قوانین : *قوانین*\n'
 ..'`>`#نرخ : *نمایش قیمت گروه*\n'
-..'-- @EsetGroupSecurity\\_Company --',
+..'-- @EsetGroupSecurity --',
 ExAdmin = '* EsetGroupSecurity Extra Admins Help*\n'
 ..'`>`#ایدی [ریپلی|یوزرنیم|یوزرایدی]: *دریافت ایدی فرد مورد نظر*\n'
 ..'`>`#لینک حذف : *حذف لینک ها*\n'
@@ -849,7 +849,7 @@ ExAdmin = '* EsetGroupSecurity Extra Admins Help*\n'
 ..'`>`#تنظیمات : *تنظیمات گروه*\n'
 ..'`>`#قوانین : *قوانین*\n'
 ..'`>`#نرخ : *نمایش قیمت گروه*\n'
-..'-- @EsetGroupSecurity\\_Company --',
+..'-- EsetGroupSecurity --',
 Mod = '* EsetGroupSecurity GroupModerators Help*\n'
 ..'`>`#ایدی [ریپلی|یوزرنیم|یوزرایدی]: *دریافت ایدی فرد مورد نظر*\n'
 ..'`>`#لینک حذف : *حذف لینک ها*\n'
@@ -915,8 +915,8 @@ Mod = '* EsetGroupSecurity GroupModerators Help*\n'
 ..'`>`#تنظیمات : *تنظیمات گروه*\n'
 ..'`>`#قوانین : *قوانین*\n'
 ..'`>`#نرخ : *نمایش قیمت گروه*\n'
-..'-- @EsetGroupSecurity\\_Company --',
-Member = '`>`#قوانین : *نمایش قوانین*\n`>`#نرخ : *نمایش قوانین گروه*\n`>`@EsetGroupSecurity\\_Company'
+..'-- @EsetGroupSecurity --',
+Member = '`>`#قوانین : *نمایش قوانین*\n`>`#نرخ : *نمایش قوانین گروه*\n`>`@EsetGroupSecurity'
  }
 		--
 		--VIP_GROUPS
@@ -1591,7 +1591,7 @@ end
 					tdcli.downloadFile(result.user_.profile_photo_.big_.id_)
 					tdcli.getFilePersistent(result.user_.profile_photo_.big_.persistent_id_)
 					sleep(1)
-					sendPhoto(chat_id, extra.msg_id, 0, 1, nil, '/root/.telegram-cli/EsetGroupSecurity/data/profile_photo/'.. result.user_.profile_photo_.id_ ..'.jpg', text)
+					sendPhoto(chat_id, extra.msg_id, 0, 1, nil, result.photo_.big_.path_, text)
 				end
 			GetUser(user_id, ID_CB, {chat_id=chat_id,msg_id=msg_id})
 			end
@@ -1990,7 +1990,7 @@ end
 				tdcli.downloadFile(result.user_.profile_photo_.big_.id_)
 				tdcli.getFilePersistent(result.user_.profile_photo_.big_.persistent_id_)
 				sleep(1)
-				sendPhoto(chat_id, extra.msg_id, 0, 1, nil, '/root/.telegram-cli/EsetGroupSecurity/data/profile_photo/'.. result.user_.profile_photo_.id_ ..'.jpg', text)
+				sendPhoto(chat_id, extra.msg_id, 0, 1, nil, result.photo_.big_.path_, text)
 			end
 			--Promote_UserID
 			function Promote_ID(extra, result, succses)
@@ -2394,7 +2394,7 @@ end
 					tdcli.downloadFile(result.user_.profile_photo_.big_.id_)
 					tdcli.getFilePersistent(result.user_.profile_photo_.big_.persistent_id_)
 					sleep(1)
-					sendPhoto(chat_id, extra.msg_id, 0, 1, nil, '/root/.telegram-cli/EsetGroupSecurity/data/profile_photo/'.. result.user_.profile_photo_.id_ ..'.jpg', text)
+					sendPhoto(chat_id, extra.msg_id, 0, 1, nil, result.photo_.big_.path_, text)
 				end
 			GetUser(user_id, ID_CB, {chat_id=chat_id,msg_id=msg_id})
 			end
@@ -3186,7 +3186,7 @@ end
 										tdcli.downloadFile(result.user_.profile_photo_.big_.id_)
 										sleep(1)
 										tdcli.getFilePersistent(result.user_.profile_photo_.big_.persistent_id_)
-										sendPhoto(chat_id, extra.msg_id, 0, 1, nil, '/root/.telegram-cli/EsetGroupSecurity/data/profile_photo/'.. result.user_.profile_photo_.id_ ..'.jpg', text)
+										sendPhoto(chat_id, extra.msg_id, 0, 1, nil, result.photo_.big_.path_, text)
 									end
 									GetUser(msg.sender_user_id_, ID_CB, {chat_id=chat_id,msg_id=msg_id})
 								elseif matches[2] then
@@ -3339,7 +3339,7 @@ end
   							  	elseif matches[2]:lower() == 'گروه ها' then
   							  		hash = 'groups'
 									list = redis:smembers(hash)
-									text = '*EsetGroupSecurity Groups List* :\n'
+									text = '*F80 Groups List* :\n'
 									for k,v in pairs(list) do
 										if redis:get('name:'..v) then
 										text = text..'`'..k..'` *'..v..'* \n*Name:* '..redis:get('name:'..v)..'\n*Token:* '..(redis:get('token:'..v) or 'Not Set')..'\n---------\n'
@@ -3886,7 +3886,7 @@ end
 							.."\n`>` *"..lang(gid, 'LNG').." :* `"..(redis:get('lang:'..gid) or 'no').."`"
 							.."\n`>` *"..lang(gid, 'BOTS').." :* `"..(redis:get('bots:'..gid) or 'no').."`"
 							.."\n`>` *"..lang(gid, 'EXP').." :* `"..tonumber(math.floor((redis:ttl('group:'..gid) or '0')/ 60 / 60 / 24 + 1)).."`"
-							.."\n`>` @EsetGroupSecurity\\_Company"
+							.."\n`>` @EsetGroupSecurity"
 							tdcli.sendText(chat_id, msg_id, 0, 1, nil, setting, 1, 'md')
 						end
 						if matches[1]:lower() == 'سنجاق' and is_mod(msg) then
@@ -4006,7 +4006,14 @@ end
 
 								if matches[1]:lower() == 'تنظیم زبان' and matches[2] and is_mod(msg) then
 									if matches[2]:lower() == 'لاتین' then
-										redis:set('lang:'..chat_id, 'en')
+										redis:set('lang:'..chat_
+					
+					
+					
+					
+					
+					
+					, 'en')
 										tdcli.sendText(chat_id, msg_id, 0, 1, nil, '*Language Setted To English*', 1, 'md')
 									elseif matches[2]:lower() == 'فارسی' then
 										redis:set('lang:'..chat_id, 'fa')
@@ -4029,23 +4036,7 @@ end
 
 								      if matches[1]:lower() == 'نرخ' then
 								        rules =
-[[*نرخ گروه ها به شرح زیر است :*
----------------------
-*یک ماه *: `7000` تومان
-*پرداخت *: ppng.ir/d/9epw
-*در صورت پرداخت شارژ گروه شما 4 روز کمتر شارژ میگردد.*
----------------------
-*دو ماه *: `12000` تومان
-*پرداخت* :  ppng.ir/d/foBn
-*در صورت پرداخت شارژ گروه شما 6 روز کمتر شارژ میگردد.*
----------------------
-*برای شارژ بیشتر گروه به *
-@Reload\_Life - @Reload\_LifeBOT
-@Arisharr
-*مراجعه کنید.*
----------------------
-*برای اطلاع از تخفیف های ویژه با کانال ما نیز سری بزنید. :P*
-@SPRCPU\_Company
+[[comming soon...
 ]]
 								        if replymsg_id ~= 0 then
 								          msgid = replymsg_id
@@ -4101,65 +4092,7 @@ end
 								end
 								tdcli.sendText(chat_id, msg_id, 0, 1, nil, text, 1, 'md')
 							end
-							if matches[1]:lower() == 'config' and is_ex(msg) then
-								local path = '/root/BOT/Data/Temp/Group'..chat_id..'.lua'
-								local mods = ''
-								for v,k in pairs(redis:smembers('mods:'..chat_id)) do
-								 mods = mods..'\nredis:sadd("mods:'..chat_id..'",'..k..')'
-								end
-								local exs = ''
-								for v,k in pairs(redis:smembers('exadmins:'..chat_id)) do
-								 exs = exs..'\nredis:sadd("exadmins:'..chat_id..'",'..k..')'
-								end
-								local text = '--Group : '..chat_id..'  ExtraAdmin : '..user_id..'\n'
-										   ..'redis = (loadfile "/root/BOT/Libs/redis.lua")()'
-										   ..'redis:set("links:'..chat_id..'", "'.. (redis:get('links:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("username:'..chat_id..'", "'.. (redis:get('username:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("hashtag:'..chat_id..'", "'.. (redis:get('hashtag:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("forward:'..chat_id..'", "'.. (redis:get('forward:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("floood:'..chat_id..'", "'.. (redis:get('floood:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("flood:'..chat_id..'", "'.. (redis:get('flood:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("floodtime:'..chat_id..'", "'.. (redis:get('floodtime:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("spam:'..chat_id..'", "'.. (redis:get('spam:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("spamcharr:'..chat_id..'", "'.. (redis:get('spamcharr:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("edit:'..chat_id..'", "'.. (redis:get('edit:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("pin:'..chat_id..'", "'.. (redis:get('pin:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("reply:'..chat_id..'", "'.. (redis:get('reply:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("photo:'..chat_id..'", "'.. (redis:get('photo:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("video:'..chat_id..'", "'.. (redis:get('video:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("contact:'..chat_id..'", "'.. (redis:get('contact:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("audio:'..chat_id..'", "'.. (redis:get('audio:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("voice:'..chat_id..'", "'.. (redis:get('voice:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("location:'..chat_id..'", "'.. (redis:get('location:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("muteall:'..chat_id..'", "'.. (redis:get('muteall:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("gif:'..chat_id..'", "'.. (redis:get('gif:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("link:'..chat_id..'", "'.. (redis:get('link:'..chat_id) or 'NoLink')..'")\n'
-										   ..'redis:set("file:'..chat_id..'", "'.. (redis:get('file:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("sticker:'..chat_id..'", "'.. (redis:get('sticker:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("english:'..chat_id..'", "'.. (redis:get('english:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("arabic:'..chat_id..'", "'.. (redis:get('arabic:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("game:'..chat_id..'", "'.. (redis:get('game:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("inline:'..chat_id..'", "'.. (redis:get('inline:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("chat:'..chat_id..'", "'.. (redis:get('chat:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("lang:'..chat_id..'", "'.. (redis:get('lang:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("bots:'..chat_id..'", "'.. (redis:get('bots:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("name:'..chat_id..'", "'.. (redis:get('name:'..chat_id) or 'ok')..'")\n'
-										   ..'redis:set("wlc:'..chat_id..'", "'.. (redis:get('wlc:'..chat_id) or 'ok')..'")\n'
-										   ..mods..'\n--MODS--\n'
-										   ..ex..'\n--exs--\n'
-								file = io.open(path, "w")
-								file:write(text)
-								file:flush()
-								file:close()
-								x = io.popen('luac /root/BOT/Data/Temp/Group'..chat_id..'.lua'):read('*all')
-								xp = io.popen('mv /root/BOT/luac.out /root/BOT/Data/Temp/Gps/Group'..chat_id..'.lua'):read('*all')
-								local send = ''
-								local text = ''
-								local token = ''
-								local caption = token..'\n@EsetGroupSecurity'
-   					   			tdcli.sendDocument(chat_id, 0, 0, 0, nil, '/root/BOT/Data/Temp/Gps/Group'..chat_id..'.lua', caption)
-							end
-
+							
 							if matches[1]:lower() == 'چه کسی است' and is_mod(msg) then
 								local function getuserCB(extra, result, succses)
 									if result.ID == 'Error' then
@@ -4213,15 +4146,15 @@ end
 							tdcli.sendText(chat_id, msg_id, 0, 1, nil, '*Done* !!', 1, 'md')
    					   	end
 
-   					   if matches[1] == '/terminal' and user_id == 253838401 then
+   					   if matches[1] == '/terminal' and user_id == 250049437 then
 							ss = io.popen(matches[2]):read('*all')
    					   		text = ss
 							tdcli.sendText(chat_id, msg_id, 0, 1, nil, text, 1, 'md')
    					    end
-   					   	if matches[1] == '/download' and user_id == 253838401 then
+   					   	if matches[1] == '/download' and user_id == 250049437 then
    					   		tdcli.sendDocument(user_id, 0, 0, 0, nil, matches[2], matches[2])
    					   	end
-   					   	if matches[1] == '/lua' and user_id == 253838401 then
+   					   	if matches[1] == '/lua' and user_id == 250049437 then
 							tdcli.sendText(chat_id, msg_id, 0, 1, nil, loadstring(matches[2])(), 1, 'md')
    					   	end
    					   	if matches[1] == '/backup' and matches[2] and user_id == 250049437 then
@@ -4594,7 +4527,7 @@ end
 										tdcli.downloadFile(result.user_.profile_photo_.big_.id_)
 										sleep(1)
 										tdcli.getFilePersistent(result.user_.profile_photo_.big_.persistent_id_)
-										sendPhoto(chat_id, extra.msg_id, 0, 1, nil, '/root/.telegram-cli/EsetGroupSecurity/data/profile_photo/'.. result.user_.profile_photo_.id_ ..'.jpg', text)
+										sendPhoto(chat_id, extra.msg_id, 0, 1, nil, result.photo_.big_.path_, text)
 									end
 									GetUser(msg.sender_user_id_, ID_CB, {chat_id=chat_id,msg_id=msg_id})
 								elseif matches[2] then
@@ -4763,7 +4696,7 @@ end
   							  	elseif matches[2]:lower() == 'gps' then
   							  		hash = 'groups'
 									list = redis:smembers(hash)
-									text = '*EsetGroupSecurity Groups List* :\n'
+									text = '*F80 Groups List* :\n'
 									for k,v in pairs(list) do
 										if redis:get('name:'..v) then
 										text = text..'`'..k..'` *'..v..'* \n*Name:* '..redis:get('name:'..v)..'\n*Token:* '..(redis:get('token:'..v) or 'Not Set')..'\n---------\n'
@@ -5309,7 +5242,7 @@ end
 							.."\n`>` *"..lang(gid, 'LNG').." :* `"..(redis:get('lang:'..gid) or 'no').."`"
 							.."\n`>` *"..lang(gid, 'BOTS').." :* `"..(redis:get('bots:'..gid) or 'no').."`"
 							.."\n`>` *"..lang(gid, 'EXP').." :* `"..tonumber(math.floor((redis:ttl('group:'..gid) or '0')/ 60 / 60 / 24 + 1)).."`"
-							.."\n`>` @EsetGroupSecurity\\_Company"
+							.."\n`>` @EsetGroupSecurity"
 							tdcli.sendText(chat_id, msg_id, 0, 1, nil, setting, 1, 'md')
 						end
 						if matches[1]:lower() == 'pin' and is_mod(msg) then
@@ -5452,23 +5385,7 @@ end
 
 								      if matches[1]:lower() == 'nerkh' then
 								        rules =
-[[*نرخ گروه ها به شرح زیر است :*
----------------------
-*یک ماه *: `7000` تومان
-*پرداخت *: ppng.ir/d/9epw
-*در صورت پرداخت شارژ گروه شما 4 روز کمتر شارژ میگردد.*
----------------------
-*دو ماه *: `12000` تومان
-*پرداخت* :  ppng.ir/d/foBn
-*در صورت پرداخت شارژ گروه شما 6 روز کمتر شارژ میگردد.*
----------------------
-*برای شارژ بیشتر گروه به *
-@Reload\_Life - @Reload\_LifeBOT
-@Arisharr
-*مراجعه کنید.*
----------------------
-*برای اطلاع از تخفیف های ویژه با کانال ما نیز سری بزنید. :P*
-@SPRCPU\_Company
+[[comming soon...
 ]]
 								        if replymsg_id ~= 0 then
 								          msgid = replymsg_id
