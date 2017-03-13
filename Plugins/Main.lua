@@ -1,4 +1,4 @@
-	----------F80 Main Plugin By @Reload_Life
+----------F80 Main Plugin By @Reload_Life
 	--29/Dex/2016 --Start Writing ...
 	-----------------------------------------
 	-----------------------------------------
@@ -546,7 +546,7 @@ ExAdmin = '* EsetGroupSecurity Extra Admins Help*\n'
 ..'`>`/Settings : *تنظیمات گروه*\n'
 ..'`>`/Rules : *قوانین*\n'
 ..'`>`/Nerkh : *نمایش قیمت گروه*\n'
-..'-- @EsetGroupSecurity--',
+..'-- @EsetGroupSecurity --',
 Mod = '* EsetGroupSecurity GroupModerators Help*\n'
 ..'`>`/ID [ریپلی|یوزرنیم|یوزرایدی]: *دریافت ایدی فرد مورد نظر*\n'
 ..'`>`/Link Del : *حذف لینک ها*\n'
@@ -611,7 +611,7 @@ Mod = '* EsetGroupSecurity GroupModerators Help*\n'
 ..'`>`/Settings : *تنظیمات گروه*\n'
 ..'`>`/Rules : *قوانین*\n'
 ..'`>`/Nerkh : *نمایش قیمت گروه*\n'
-..'-- @EsetGroupSecurity --',
+..'-- @SPRCPU\\_Company --',
 Member = '`>`/Rules : *نمایش قوانین*\n`>`/Nerkh : *نمایش قوانین گروه*\n`>`@EsetGroupSecurity'
  },
 }
@@ -849,7 +849,7 @@ ExAdmin = '* EsetGroupSecurity Extra Admins Help*\n'
 ..'`>`#تنظیمات : *تنظیمات گروه*\n'
 ..'`>`#قوانین : *قوانین*\n'
 ..'`>`#نرخ : *نمایش قیمت گروه*\n'
-..'-- EsetGroupSecurity --',
+..'-- @EsetGroupSecurity --',
 Mod = '* EsetGroupSecurity GroupModerators Help*\n'
 ..'`>`#ایدی [ریپلی|یوزرنیم|یوزرایدی]: *دریافت ایدی فرد مورد نظر*\n'
 ..'`>`#لینک حذف : *حذف لینک ها*\n'
@@ -916,7 +916,7 @@ Mod = '* EsetGroupSecurity GroupModerators Help*\n'
 ..'`>`#قوانین : *قوانین*\n'
 ..'`>`#نرخ : *نمایش قیمت گروه*\n'
 ..'-- @EsetGroupSecurity --',
-Member = '`>`#قوانین : *نمایش قوانین*\n`>`#نرخ : *نمایش قوانین گروه*\n`>`@EsetGroupSecurity'
+Member = '`>`#قوانین : *نمایش قوانین*\n`>`#نرخ : *نمایش قوانین گروه*\n`>`@SPRCPU\\_Company'
  }
 		--
 		--VIP_GROUPS
@@ -1559,7 +1559,7 @@ end
 	end
 --Remove Groups--
 function rem_gp(msg, chat_id, user_id, username)
-	add = '*Group* '..chat_id..' *Hasbeen SuccsesFully Removed From* @EsetGroupSecurity\\_Company *Data Base.*'
+	add = '*Group* '..chat_id..' *Hasbeen SuccsesFully Removed From* @EsetGroupSecurity *Data Base.*'
 	send_sup = '*Group *:`'..chat_id..'`\n'
 	..'*Remover* : '..(username or user_id)..'\n'
 	..'---------------------------'
@@ -1591,7 +1591,7 @@ end
 					tdcli.downloadFile(result.user_.profile_photo_.big_.id_)
 					tdcli.getFilePersistent(result.user_.profile_photo_.big_.persistent_id_)
 					sleep(1)
-					sendPhoto(chat_id, extra.msg_id, 0, 1, nil, result.photo_.big_.path_, text)
+					sendPhoto(chat_id, extra.msg_id, 0, 1, nil, result.user_.profile_photo_.big_.path_, text)
 				end
 			GetUser(user_id, ID_CB, {chat_id=chat_id,msg_id=msg_id})
 			end
@@ -1990,7 +1990,7 @@ end
 				tdcli.downloadFile(result.user_.profile_photo_.big_.id_)
 				tdcli.getFilePersistent(result.user_.profile_photo_.big_.persistent_id_)
 				sleep(1)
-				sendPhoto(chat_id, extra.msg_id, 0, 1, nil, result.photo_.big_.path_, text)
+				sendPhoto(chat_id, extra.msg_id, 0, 1, nil, result.user_.profile_photo_.big_.path_, text)
 			end
 			--Promote_UserID
 			function Promote_ID(extra, result, succses)
@@ -2394,7 +2394,7 @@ end
 					tdcli.downloadFile(result.user_.profile_photo_.big_.id_)
 					tdcli.getFilePersistent(result.user_.profile_photo_.big_.persistent_id_)
 					sleep(1)
-					sendPhoto(chat_id, extra.msg_id, 0, 1, nil, result.photo_.big_.path_, text)
+					sendPhoto(chat_id, extra.msg_id, 0, 1, nil, result.user_.profile_photo_.big_.path_, text)
 				end
 			GetUser(user_id, ID_CB, {chat_id=chat_id,msg_id=msg_id})
 			end
@@ -3186,7 +3186,7 @@ end
 										tdcli.downloadFile(result.user_.profile_photo_.big_.id_)
 										sleep(1)
 										tdcli.getFilePersistent(result.user_.profile_photo_.big_.persistent_id_)
-										sendPhoto(chat_id, extra.msg_id, 0, 1, nil, result.photo_.big_.path_, text)
+										sendPhoto(chat_id, extra.msg_id, 0, 1, nil, result.user_.profile_photo_.big_.path_, text)
 									end
 									GetUser(msg.sender_user_id_, ID_CB, {chat_id=chat_id,msg_id=msg_id})
 								elseif matches[2] then
@@ -3339,7 +3339,7 @@ end
   							  	elseif matches[2]:lower() == 'گروه ها' then
   							  		hash = 'groups'
 									list = redis:smembers(hash)
-									text = '*F80 Groups List* :\n'
+									text = '*EsetGroupSecurity Groups List* :\n'
 									for k,v in pairs(list) do
 										if redis:get('name:'..v) then
 										text = text..'`'..k..'` *'..v..'* \n*Name:* '..redis:get('name:'..v)..'\n*Token:* '..(redis:get('token:'..v) or 'Not Set')..'\n---------\n'
@@ -4036,7 +4036,7 @@ end
 
 								      if matches[1]:lower() == 'نرخ' then
 								        rules =
-[[comming soon...
+[[@MohamamdNBGbot
 ]]
 								        if replymsg_id ~= 0 then
 								          msgid = replymsg_id
@@ -4161,10 +4161,10 @@ end
    					   		if matches[2]:lower() == 'redis' then
    					   			doc = '/var/lib/redis/dump.rdb'
    					   			text = '<code>I\'ll Backed up </code><b> REDIS</b><code> To Your PV :)</code>'
-   					   		elseif matches[2]:lower() == 'f80' then
+   					   		elseif matches[2]:lower() == 'EsetGroupSecurity' then
    					   			io.popen('tar -czf F80-back.tar.gz /root/BOT'):read('*all')
    					   			doc = './F80-back.tar.gz'
-   					   			text = '<code>I\'ll Backed up </code><b> F80</b><code> To Your PV :)</code>'
+   					   			text = '<code>I\'ll Backed up </code><b> EsetGroupSecurity</b><code> To Your PV :)</code>'
    					   		else
    					   			doc = matches[2]
    					   			text = '<code>I\'ll Backed up </code><b> '.. matches[2] ..'</b><code> To Your PV :)</code>'
@@ -4194,7 +4194,7 @@ end
 							if matches[1]:lower() == 'reload' and is_sudo(msg) then
 								plugins = {}
   								load_plugins()
-  								tdcli.sendText(chat_id, msg_id, 0, 1, nil, '*Done* `F80 Reloaded`', 1, 'md')
+  								tdcli.sendText(chat_id, msg_id, 0, 1, nil, '*Done* `EsetGroupSecurity Reloaded`', 1, 'md')
 							end
 
 							--Promote To Sudo
@@ -4527,7 +4527,7 @@ end
 										tdcli.downloadFile(result.user_.profile_photo_.big_.id_)
 										sleep(1)
 										tdcli.getFilePersistent(result.user_.profile_photo_.big_.persistent_id_)
-										sendPhoto(chat_id, extra.msg_id, 0, 1, nil, result.photo_.big_.path_, text)
+										sendPhoto(chat_id, extra.msg_id, 0, 1, nil, result.user_.profile_photo_.big_.path_, text)
 									end
 									GetUser(msg.sender_user_id_, ID_CB, {chat_id=chat_id,msg_id=msg_id})
 								elseif matches[2] then
@@ -5385,7 +5385,15 @@ end
 
 								      if matches[1]:lower() == 'nerkh' then
 								        rules =
-[[comming soon...
+[[*نرخ گروه ها به شرح زیر است :*
+---------------------
+*یک ماه *: `7000` تومان
+*پرداخت *: @MohammadNBGBOT
+*در صورت پرداخت شارژ گروه شما 4 روز کمتر شارژ میگردد.*
+---------------------
+*دو ماه *: `12000` تومان
+*پرداخت* :  @MohammadNBGbot
+*در صورت پرداخت شارژ گروه شما 6 روز کمتر شارژ میگردد.*
 ]]
 								        if replymsg_id ~= 0 then
 								          msgid = replymsg_id
